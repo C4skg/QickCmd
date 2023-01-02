@@ -77,9 +77,6 @@ class QickTerminal:
             0：添加失败
             1：添加成功oko
             2：命令已存在
-
-
-            待写
         '''
         if self.iCmd.get(cmdName) == None:
             try:
