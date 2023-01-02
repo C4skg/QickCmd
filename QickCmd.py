@@ -35,7 +35,7 @@ class QickTerminal:
             CONFIG
         '''
         self.CONFIG = {
-            'histroy': 1
+            'history': 1 #命令历史开关
         }
 
 
