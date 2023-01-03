@@ -1,6 +1,5 @@
 from QickCmd import QickTerminal;
 
-
 cmd = QickTerminal();
 cmd.CONFIG['history'] = 0;
 def hello(*args):
