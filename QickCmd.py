@@ -132,8 +132,10 @@ class QickTerminal:
                 return;
             history.write('\n');
 
+
     def getTime(self)-> str:
         return time.strftime("%Y-%m-%d %H:%M:%S",time.localtime());
+
 
     def startCmd(self):
         '''
